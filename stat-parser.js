@@ -27,7 +27,7 @@ module.exports = (demos_path) => {
                     frags: parseInt(player.$.frags, 10)
                 })).sort((a, b) => a.frags < b.frags);
 
-                fs.appendFileSync('processed_files', new_file);
+                fs.appendFileSync('processed_files', '\n' + new_file);
 
                 resolve({
                     players,
