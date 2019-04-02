@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^1.18.10",
-    "slack-node": "^0.1.8"
+    "slack-node": "^0.1.8",
+    "xml2js": "^0.4.19"
   }
 }
